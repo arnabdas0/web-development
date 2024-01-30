@@ -1,0 +1,41 @@
+body {
+  margin-left: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat {
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 16px;
+  display: inline-block;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.msg {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1px 10px;
+  border-radius: 16px;
+}
+
+button {
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.dlt {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
